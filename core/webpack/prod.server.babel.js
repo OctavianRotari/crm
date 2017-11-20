@@ -23,12 +23,12 @@ import {buildDirName, distDir, publicDirName, rootDir, srcDir} from "../../direc
 import rules, {stats} from "./prod.rules";
 
 export default [{
-  
+
   name: "server",
   // The base directory, an absolute path, for resolving entry points
   // and loaders from configuration. Lets keep it to /src
   context: srcDir,
-  
+
   // The point or points to enter the application. At this point the
   // application starts executing. If an array is passed all items will
   // be executed.
@@ -37,7 +37,7 @@ export default [{
     // Initial entry point
     path.join(srcDir, "server.js"),
   ],
-  
+
   //These options determine how the different types of modules within
   // a project will be treated.
   module: {
@@ -63,17 +63,17 @@ export default [{
     ]
   },
   output: {
-    
+
     // Output everything in dist folder
     path: distDir,
-    
+
     // The file name to output
     filename: "server.js",
-    
+
     // public path is assets path
     publicPath: "/",
   },
-  
+
   node: {
     __filename: false,
     __dirname: false
@@ -81,9 +81,9 @@ export default [{
   target: "node",
   devtool: false,
   stats,
-  
+
   plugins: [
-    
+
     // Uglify the output so that we have the most optimized code
     new UglifyJSPlugin({
       uglifyOptions: {
@@ -99,7 +99,7 @@ export default [{
     }),
     // Enable no errors plugin
     new webpack.NoEmitOnErrorsPlugin(),
-    
+
     // Extract the CSS so that it can be moved to CDN as desired
     // Also extracted CSS can be loaded parallel
     new ExtractTextPlugin("server.min.css"),
@@ -134,11 +134,11 @@ export default [{
 },
 {
   name: "service-worker",
-  
+
   // The base directory, an absolute path, for resolving entry points
   // and loaders from configuration. Lets keep it to /src
   context: srcDir,
-  
+
   // The point or points to enter the application. At this point the
   // application starts executing. If an array is passed all items will
   // be executed.
@@ -149,7 +149,7 @@ export default [{
       path.join(srcDir, "service-worker.js"),
     ]
   },
-  
+
   // These options determine how the different types of modules within
   // a project will be treated.
   module: {
@@ -175,22 +175,22 @@ export default [{
     ]
   },
   output: {
-    
+
     // Output everything in dist folder
     path: distDir,
-    
+
     // The file name to output
     filename: "[name].js",
-    
+
     // public path is assets path
     publicPath: "/",
   },
   target: "web",
   devtool: false,
   stats,
-  
+
   plugins: [
-    
+
     // Uglify the output so that we have the most optimized code
     new UglifyJSPlugin({
       uglifyOptions: {
@@ -206,11 +206,11 @@ export default [{
     }),
     // Enable no errors plugin
     new webpack.NoEmitOnErrorsPlugin(),
-    
+
     // Extract the CSS so that it can be moved to CDN as desired
     // Also extracted CSS can be loaded parallel
     new ExtractTextPlugin("service-worker.min.css"),
-    
+
     // Sass loader options for autoprefix
     new webpack.LoaderOptionsPlugin({
       options: {
@@ -223,7 +223,7 @@ export default [{
         }
       }
     }),
-  
+
     // We are extracting server.min.css so that we do not have any window code in service-worker.js
     // but we still need the css class names that are generated. Thus we remove the server.min.css
     // after the build process
@@ -233,7 +233,7 @@ export default [{
         "service-worker.min.css"
       ]
     }),
-    
+
     // Remove build directory generated extra while compiling service-worker.js
     new MoveAfterEmit([{
       from: buildDirName,

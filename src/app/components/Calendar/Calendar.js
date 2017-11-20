@@ -235,7 +235,6 @@ class Calendar extends React.Component {
                         />
                 }
                 <Month
-                    ref='view'
                     {...props}
                     {...formats}
                     selectable={selectable}
