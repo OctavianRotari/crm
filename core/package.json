@@ -12,7 +12,6 @@
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.0",
     "babel-loader": "^7.1.2",
-    "babel-plugin-css-modules-transform": "^1.2.7",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-module-resolver": "^3.0.0",
     "babel-plugin-react-transform": "^3.0.0",
@@ -32,13 +31,11 @@
     "cookie-parser": "^1.4.3",
     "copy-webpack-plugin": "^4.0.1",
     "cross-env": "^5.0.5",
-    "css-loader": "^0.28.7",
     "date-arithmetic": "^3.1.0",
     "eslint": "^4.6.1",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.3.0",
     "express": "^4.15.4",
-    "extract-text-webpack-plugin": "^3.0.0",
     "fbemitter": "^3.0.0-alpha.1",
     "file-loader": "^1.1.5",
     "glob": "^7.1.2",
@@ -61,13 +58,7 @@
     "mozjpeg": "^4.1.1",
     "multi-loader": "^0.1.0",
     "namor": "^1.0.1",
-    "node-sass": "^4.5.3",
     "nodemon": "^1.12.0",
-    "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^11.0.0",
-    "postcss-loader": "^2.0.6",
-    "postcss-scss": "^1.0.2",
-    "precss": "^2.0.0",
     "prop-types": "^15.6.0",
     "pwa-srcset-loader": "^1.1.2",
     "react": "^16",
@@ -126,8 +117,5 @@
     "type": "opencollective",
     "url": "https://opencollective.com/react-pwa",
     "logo": "https://opencollective.com/opencollective/logo.txt"
-  },
-  "dependencies": {
-    "babel": "^6.23.0"
   }
 }

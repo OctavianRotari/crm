@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import {SCREEN_STATE_LOADING} from "core/components/screen/action";
-import * as styles from "./loader.scss";
+// import * as styles from "./loader.scss";
 import Transition from "core/components/transition";
 
 @connect( state => {
@@ -19,15 +19,15 @@ export default class Loader extends Component {
         {
           this.props.screenState === SCREEN_STATE_LOADING &&
           (
-            <div className={styles["loader-section"]}>
-              <div className={styles["screen-loader"]} />
+            <div className="loader-section">
+              <div className="screen-loader"/>
             </div>
           )
         }
         <Transition
-          className={styles["animator"]}
-          onEnterClassName={styles["fade-in"]}
-          onExitClassName={styles["fade-out"]}
+          className="animator"
+          onEnterClassName="fade-in"
+          onExitClassName="fade-out"
         >
           {this.props.children || null}
         </Transition>

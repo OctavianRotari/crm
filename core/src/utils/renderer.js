@@ -16,6 +16,12 @@ import RouteWithSubRoutes from "../components/route/with-sub-routes";
 import {getRouteFromPath} from "./bundler";
 import componentMap from "src/config/classMap";
 
+
+import { MuiThemeProvider } from 'material-ui/styles';
+
+import theme from '../components/theme.material';
+
+
 /**
  * Get component via componentMap in settings
  * @param componentReference
@@ -45,7 +51,7 @@ export const renderNotFoundPage = ({
   routes,
   renderRoot = null
 }, callback = () => null) => {
-  
+
   let component = (
     <Provider store={store}>
       <ConnectedRouter
@@ -63,7 +69,7 @@ export const renderNotFoundPage = ({
           </Switch>
         </RootComponent>
       </ConnectedRouter>
-    
+
     </Provider>
   );
   // If render is set false explicitly then just return the component
@@ -87,30 +93,32 @@ export const renderErrorPage = ({
   renderRoot = null,
   error
 }, callback = () => null) => {
-  
+
   context = context || {};
   let component = (
-    <HotAppContainer>
-      <Provider store={store}>
-        <ConnectedRouter
-          Router={Router}
-          context={context}
-          history={history}
-        >
-          <RootComponent
-            api={api}
-            storage={storage}
-            routes={routes}
+    <MuiThemeProvider theme={theme}>
+      <HotAppContainer>
+        <Provider store={store}>
+          <ConnectedRouter
+            Router={Router}
+            context={context}
+            history={history}
           >
-            <Switch>
-              <ErrorPage error={error} />
-            </Switch>
-          </RootComponent>
-        </ConnectedRouter>
-      </Provider>
-    </HotAppContainer>
+            <RootComponent
+              api={api}
+              storage={storage}
+              routes={routes}
+            >
+              <Switch>
+                <ErrorPage error={error} />
+              </Switch>
+            </RootComponent>
+          </ConnectedRouter>
+        </Provider>
+      </HotAppContainer>
+    </MuiThemeProvider>
   );
-  
+
   if (!render) {
     return component;
   }
@@ -131,30 +139,32 @@ export const renderOfflinePage = ({
   renderRoot = null,
   error
 }, callback = () => null) => {
-  
+
   context = context || {};
   let component = (
-    <HotAppContainer>
-      <Provider store={store}>
-        <ConnectedRouter
-          Router={Router}
-          context={context}
-          history={history}
-        >
-          <RootComponent
-            api={api}
-            storage={storage}
-            routes={routes}
+    <MuiThemeProvider theme={theme}>
+      <HotAppContainer>
+        <Provider store={store}>
+          <ConnectedRouter
+            Router={Router}
+            context={context}
+            history={history}
           >
-            <Switch>
-              <OfflinePage error={error} />
-            </Switch>
-          </RootComponent>
-        </ConnectedRouter>
-      </Provider>
-    </HotAppContainer>
+            <RootComponent
+              api={api}
+              storage={storage}
+              routes={routes}
+            >
+              <Switch>
+                <OfflinePage error={error} />
+              </Switch>
+            </RootComponent>
+          </ConnectedRouter>
+        </Provider>
+      </HotAppContainer>
+    </MuiThemeProvider>
   );
-  
+
   if (!render) {
     return component;
   }
@@ -176,40 +186,42 @@ export const renderRoutesByUrl = ({
   renderRoot = null
 }, callback = () => null) => {
   const currentRoutes = url ? getRouteFromPath(url, routes): routes;
-  
+
   context.api = api;
   context.storage = storage;
-  
+
   let component = (
-    <HotAppContainer>
-      <Provider store={store}>
-        <ConnectedRouter
-          context={context}
-          location={url}
-          history={history}
-          Router={Router}
-        >
-          <RootComponent
-            api={api}
-            storage={storage}
-            routes={routes}
+    <MuiThemeProvider theme={theme}>
+      <HotAppContainer>
+        <Provider store={store}>
+          <ConnectedRouter
+            context={context}
+            location={url}
+            history={history}
+            Router={Router}
           >
-            <Loader>
-              <Switch>
-                {_.map(currentRoutes, (route, i) => {
-                  return <RouteWithSubRoutes
-                    key={i}
-                    route={route}
-                    storage={storage}
-                    api={api}
-                  />;
-                })}
-              </Switch>
-            </Loader>
-          </RootComponent>
-        </ConnectedRouter>
-      </Provider>
-    </HotAppContainer>
+            <RootComponent
+              api={api}
+              storage={storage}
+              routes={routes}
+            >
+              <Loader>
+                <Switch>
+                  {_.map(currentRoutes, (route, i) => {
+                    return <RouteWithSubRoutes
+                      key={i}
+                      route={route}
+                      storage={storage}
+                      api={api}
+                    />;
+                  })}
+                </Switch>
+              </Loader>
+            </RootComponent>
+          </ConnectedRouter>
+        </Provider>
+      </HotAppContainer>
+    </MuiThemeProvider>
   );
   if (!render) {
     return component;
@@ -253,11 +265,11 @@ export const getPreloadDataPromises = (
 ) => {
   let promises = [];
   _.each(routes, r => {
-    
+
     // Load data and add it to route itself
     if (r.preLoadData) {
       promises.push((() => {
-        
+
         // Pass route as reference so that we can modify it while loading data
         const staticRoute = JSON.parse(JSON.stringify(r));
         let returnData = r.preLoadData({

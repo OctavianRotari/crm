@@ -8,8 +8,6 @@ import { accessor, elementType } from './utils/propTypes';
 import { segStyle } from './utils/eventLevels';
 import { isSelected } from './utils/selection';
 
-import './mixins.style.css';
-
 /* eslint-disable react/prop-types */
 export default {
     propTypes: {

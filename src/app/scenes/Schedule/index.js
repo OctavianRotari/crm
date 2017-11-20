@@ -34,7 +34,7 @@ class Schedule extends React.Component<Props, State> {
     );
 
     handleOnClickDate = (slotInfo: Object) => {
-        const isMobile =window.innerWidth <= 600;
+        const isMobile = this.layoutContainer.offsetWidth <= 600;
         this.setState({slotInfo}, () => {
             if(isMobile) {
                 this.handleChange({}, '1');
@@ -81,6 +81,7 @@ class Schedule extends React.Component<Props, State> {
     render() {
         return (
             <Layout
+                ref={node => {this.layoutContainer = node}}
                 header={this.header}
                 desktopLayout={this.desktopLayout}
                 mobileLayout={this.mobileLayout}

@@ -28,5 +28,5 @@
   "babel": {
     "extends": "./core/.babelrc"
   },
-  "dependencies": { }
+  "dependencies": {}
 }

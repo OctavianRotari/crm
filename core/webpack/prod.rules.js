@@ -7,7 +7,6 @@
  */
 import path from "path";
 import {rootDir, srcDir} from "../../directories";
-import {getStylesRule} from "./utils";
 
 // minimal logging
 export const stats = {
@@ -53,9 +52,6 @@ export default ({ imageOutputPath = "images/" }) => {
       ]
     },
   
-    //Check for sass or scss file names directory other than resources.
-    ...[getStylesRule({development: false, extract: true, isResource: false})],
-    ...[getStylesRule({development: false, extract: true, isResource: true})],
   
     {
       test: /\.(eot|ttf|woff|woff2)$/,
@@ -80,12 +76,6 @@ export default ({ imageOutputPath = "images/" }) => {
           options: {
             plugins: [
               {
-                use: "imagemin-pngquant",
-                options: {
-                  quality: 80
-                }
-              },
-              {
                 use: "imagemin-mozjpeg",
                 options: {
                   quality: 80
@@ -97,13 +87,6 @@ export default ({ imageOutputPath = "images/" }) => {
                   optimizationLevel: 3
                 }
               },
-              {
-                use: "imagemin-optipng",
-                options: {
-                  optimizationLevel: 7
-                }
-              }
-      
             ]
           }
         }

@@ -3,11 +3,10 @@ import PropTypes from "prop-types";
 import _ from "lodash";
 import {generateStringHash} from "../utils/utils";
 import {generateMeta} from "../utils/seo";
-
 const __development = process.env.NODE_ENV === "development";
 
 export default class Html extends React.Component {
-  
+
   static propTypes = {
     inlineCss: PropTypes.string,
     stylesheets: PropTypes.array,
@@ -30,11 +29,11 @@ export default class Html extends React.Component {
     url: "",
     links: []
   };
-  
+
   getMeta() {
     return generateMeta(this.props.seo, {baseUrl: this.props.baseUrl, url: this.props.url});
   }
-  
+
   getTitle() {
     const allMeta = this.getMeta();
     const metaForTitle = _.find(allMeta, {name: "title"});
@@ -43,7 +42,7 @@ export default class Html extends React.Component {
     }
     return "";
   }
-  
+
   render() {
     const {stylesheets, scripts, links, inlineCss} = this.props;
     return (
@@ -58,12 +57,12 @@ export default class Html extends React.Component {
           {/** The url /manifest.json is a url handled via the server.js **/}
           {
             !__development &&
-            (<link rel="manifest" href={"/manifest.json"} />)
+              (<link rel="manifest" href={"/manifest.json"} />)
           }
           {/** Loading Styles **/}
           {
             (inlineCss && inlineCss.length) &&
-            (<style type="text/css" dangerouslySetInnerHTML={{__html: inlineCss}} />)
+              (<style type="text/css" dangerouslySetInnerHTML={{__html: inlineCss}} />)
           }
           {
             _.map(stylesheets, path => {
@@ -79,15 +78,15 @@ export default class Html extends React.Component {
         </head>
         <body>
           <div id="app">
-            {this.props.children}
+              {this.props.children}
           </div>
           <div id="temp" />
           {
             !this.props.isBot &&
-            _.map(scripts, path => {
-              const pathHash = generateStringHash(path, "JS");
-              return <script type="text/javascript" key={pathHash} id={pathHash} src={path} defer />;
-            })
+              _.map(scripts, path => {
+                const pathHash = generateStringHash(path, "JS");
+                return <script type="text/javascript" key={pathHash} id={pathHash} src={path} defer />;
+              })
           }
         </body>
       </html>

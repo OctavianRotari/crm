@@ -10,14 +10,11 @@ import MoveAfterEmit from "./move-after-emit";
  * If your total stylesheet volume is big, it will be faster because
  * the CSS bundle is loaded in parallel to the JS bundle.
  */
-import ExtractTextPlugin from "extract-text-webpack-plugin";
 /**
  * @description PostCSS plugin to parse CSS and add vendor prefixes
  * to CSS rules using values from Can I Use. It is recommended by Google
  * and used in Twitter and Taobao.
  */
-import autoprefixer from "autoprefixer";
-
 import {buildDirName, distDir, publicDirName, rootDir, srcDir} from "../../directories";
 
 import rules, {stats} from "./prod.rules";
@@ -83,7 +80,11 @@ export default [{
   stats,
 
   plugins: [
-
+    // Define free variables
+    // https://webpack.js.org/plugins/define-plugin/
+    new webpack.DefinePlugin({
+      window: undefined,
+    }),
     // Uglify the output so that we have the most optimized code
     new UglifyJSPlugin({
       uglifyOptions: {
@@ -100,21 +101,6 @@ export default [{
     // Enable no errors plugin
     new webpack.NoEmitOnErrorsPlugin(),
 
-    // Extract the CSS so that it can be moved to CDN as desired
-    // Also extracted CSS can be loaded parallel
-    new ExtractTextPlugin("server.min.css"),
-    // Sass loader options for autoprefix
-    new webpack.LoaderOptionsPlugin({
-      options: {
-        context: "/",
-        sassLoader: {
-          includePaths: [srcDir]
-        },
-        postcss: function () {
-          return [autoprefixer];
-        }
-      }
-    }),
     // We are extracting server.min.css so that we do not have any window code in server.js
     // but we still need the css class names that are generated. Thus we remove the server.min.css
     // after the build process
@@ -206,23 +192,6 @@ export default [{
     }),
     // Enable no errors plugin
     new webpack.NoEmitOnErrorsPlugin(),
-
-    // Extract the CSS so that it can be moved to CDN as desired
-    // Also extracted CSS can be loaded parallel
-    new ExtractTextPlugin("service-worker.min.css"),
-
-    // Sass loader options for autoprefix
-    new webpack.LoaderOptionsPlugin({
-      options: {
-        context: "/",
-        sassLoader: {
-          includePaths: [srcDir]
-        },
-        postcss: function () {
-          return [autoprefixer];
-        }
-      }
-    }),
 
     // We are extracting server.min.css so that we do not have any window code in service-worker.js
     // but we still need the css class names that are generated. Thus we remove the server.min.css

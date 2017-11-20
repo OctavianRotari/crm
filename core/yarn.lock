@@ -302,7 +302,7 @@ async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-async@^2.1.2, async@^2.1.5, async@^2.4.1:
+async@^2.1.2, async@^2.1.5:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
@@ -2930,15 +2930,6 @@ extglob@^0.3.1:
   dependencies:
     is-extglob "^1.0.0"
 
-extract-text-webpack-plugin@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-3.0.2.tgz#5f043eaa02f9750a9258b78c0a6e0dc1408fb2f7"
-  dependencies:
-    async "^2.4.1"
-    loader-utils "^1.1.0"
-    schema-utils "^0.3.0"
-    webpack-sources "^1.0.1"
-
 extsprintf@1.3.0, extsprintf@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
@@ -3352,6 +3343,10 @@ getpass@^0.1.1:
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
+
+gettemporaryfilepath@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gettemporaryfilepath/-/gettemporaryfilepath-1.0.0.tgz#2354791f0f5cdbbc881ab8bd79d478c166a12305"
 
 gifsicle@^3.0.0:
   version "3.0.4"
@@ -3901,7 +3896,7 @@ imagemin-optipng@^5.2.0, imagemin-optipng@^5.2.1:
     is-png "^1.0.0"
     optipng-bin "^3.0.0"
 
-imagemin-pngquant@^5.0.0:
+imagemin-pngquant@^5.0.0, imagemin-pngquant@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/imagemin-pngquant/-/imagemin-pngquant-5.0.1.tgz#d8a329da553afa226b11ce62debe0b7e37b439e6"
   dependencies:
@@ -5072,6 +5067,10 @@ lpad-align@^1.0.1:
     longest "^1.0.0"
     meow "^3.3.0"
 
+lru-cache@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-2.5.0.tgz#d82388ae9c960becbea0c73bb9eb79b6c6ce9aeb"
+
 lru-cache@^4.0.1, lru-cache@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.1.tgz#622e32e82488b49279114a4f9ecf45e7cd6bba55"
@@ -5170,6 +5169,13 @@ mem@^1.1.0:
   resolved "https://registry.yarnpkg.com/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
   dependencies:
     mimic-fn "^1.0.0"
+
+memoizeasync@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/memoizeasync/-/memoizeasync-1.0.0.tgz#7b02a346f3885abb5dc37c0a43c1d202de8cb40a"
+  dependencies:
+    lru-cache "2.5.0"
+    passerror "1.1.1"
 
 memory-cache@^0.2.0:
   version "0.2.0"
@@ -5777,13 +5783,22 @@ optionator@^0.8.2:
     type-check "~0.3.2"
     wordwrap "~1.0.0"
 
-optipng-bin@^3.0.0:
+optipng-bin@3.1.4, optipng-bin@^3.0.0:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/optipng-bin/-/optipng-bin-3.1.4.tgz#95d34f2c488704f6fd70606bfea0c659f1d95d84"
   dependencies:
     bin-build "^2.0.0"
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
+
+optipng@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/optipng/-/optipng-1.1.0.tgz#2df8d575c53abbd10253ff7fb9faec82fa073ee6"
+  dependencies:
+    gettemporaryfilepath "1.0.0"
+    memoizeasync "1.0.0"
+    optipng-bin "3.1.4"
+    which "1.2.14"
 
 ordered-read-streams@^0.3.0:
   version "0.3.0"
@@ -5929,6 +5944,10 @@ parse-json@^2.1.0, parse-json@^2.2.0:
 parseurl@~1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
+
+passerror@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/passerror/-/passerror-1.1.1.tgz#a25b88dbdd910a29603aec7dcb96e9a7a97687b4"
 
 path-browserify@0.0.0:
   version "0.0.0"
@@ -6079,13 +6098,22 @@ pngjs@^2.0.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-2.3.1.tgz#11d1e12b9cb64d63e30c143a330f4c1f567da85f"
 
-pngquant-bin@^3.0.0:
+pngquant-bin@3.1.1, pngquant-bin@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/pngquant-bin/-/pngquant-bin-3.1.1.tgz#d124d98a75a9487f40c1640b4dbfcbb2bd5a1fd1"
   dependencies:
     bin-build "^2.0.0"
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
+
+pngquant@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/pngquant/-/pngquant-1.3.0.tgz#4ff83f0bbfb3aa370611560b5a84a1f94b93ef8b"
+  dependencies:
+    memoizeasync "1.0.0"
+    which "1.2.14"
+  optionalDependencies:
+    pngquant-bin "3.1.1"
 
 popper.js@^1.12.5:
   version "1.12.9"
@@ -9009,7 +9037,7 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^3.5.6:
+webpack@^3.8.1:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.8.1.tgz#b16968a81100abe61608b0153c9159ef8bb2bd83"
   dependencies:
@@ -9066,6 +9094,12 @@ which-module@^2.0.0:
 which@1, which@^1.2.9:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/which/-/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
+  dependencies:
+    isexe "^2.0.0"
+
+which@1.2.14:
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/which/-/which-1.2.14.tgz#9a87c4378f03e827cecaf1acdf56c736c01c14e5"
   dependencies:
     isexe "^2.0.0"
 

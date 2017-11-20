@@ -24,7 +24,7 @@ export default class ErrorPage extends Component {
           ( !!error.stack &&
           showStack ) &&
           (
-            <pre className={styles.error}>
+            <pre>
               {error.stack}
             </pre>
           )

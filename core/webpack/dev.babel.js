@@ -3,20 +3,6 @@
  */
 import webpack from "webpack";
 /**
- * @description It moves all the require("style.css")s in entry chunks into
- * a separate single CSS file. So your styles are no longer inlined
- * into the JS bundle, but separate in a CSS bundle file (styles.css).
- * If your total stylesheet volume is big, it will be faster because
- * the CSS bundle is loaded in parallel to the JS bundle.
- */
-import ExtractTextPlugin from "extract-text-webpack-plugin";
-/**
- * @description PostCSS plugin to parse CSS and add vendor prefixes
- * to CSS rules using values from Can I Use. It is recommended by Google
- * and used in Twitter and Taobao.
- */
-import autoprefixer from "autoprefixer";
-/**
  * Get path from nodejs
  */
 import path from "path";
@@ -27,8 +13,6 @@ import {
   buildDir, buildPublicPath, coreRootDir, coreSrcDir, distDir, rootDir, srcDir,
   srcPublicDir,
 } from "../../directories";
-
-import {getStylesRule} from "./utils";
 
 let entries = {};
 
@@ -64,8 +48,6 @@ const rules = [
       }
     ]
   },
-  ...[getStylesRule({ isResource: false })],
-  ...[getStylesRule({ isResource: true })],
   
   // Managing fonts
   {
@@ -204,22 +186,6 @@ const commonClientConfig = {
     
     // Enable no errors plugin
     new webpack.NoEmitOnErrorsPlugin(),
-    
-    // Sass loader options for autoprefix
-    new webpack.LoaderOptionsPlugin({
-      options: {
-        context: "/",
-        sassLoader: {
-          includePaths: [
-            srcDir,
-            path.join(rootDir, "core", "src")
-          ]
-        },
-        postcss: function () {
-          return [autoprefixer];
-        }
-      }
-    })
   ]
 };
 
@@ -259,9 +225,6 @@ const serviceWorkerConfig = {
           }
         ]
       },
-  
-      ...[getStylesRule({isResource: false, extract: true})],
-      ...[getStylesRule({isResource: true, extract: true})],
     ],
   },
   output: {
@@ -293,15 +256,8 @@ const serviceWorkerConfig = {
     new webpack.DefinePlugin({
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV || "development"),
     }),
-    
     // Enable no errors plugin
     new webpack.NoEmitOnErrorsPlugin(),
-  
-    // Extract the CSS so that it can be moved to CDN as desired
-    // Also extracted CSS can be loaded parallel
-    new ExtractTextPlugin({
-      filename: "service-worker.min.css"
-    }),
   ]
 };
 
