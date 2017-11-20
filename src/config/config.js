@@ -15,10 +15,10 @@ export default {
     "short_name": "RRPS",
     // Possible values ltr(left to right)/rtl(right to left)
     "dir": "ltr",
-    
+
     // language: Default en-US
     "lang": "en-US",
-    
+
     // Orientation of web-app possible:
     // any, natural, landscape, landscape-primary, landscape-secondary, portrait, portrait-primary, portrait-secondary
     "orientation": "any",

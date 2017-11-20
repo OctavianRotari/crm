@@ -20,13 +20,24 @@
     "docker:prod:start": "docker run -it -p 3003:3003 react-pwa-prod"
   },
   "author": {
-    "name" : "Atyantik Technologies Private Limited",
-    "email" : "admin@atyantik.com",
-    "url" : "https://www.atyantik.com/"
+    "name": "Atyantik Technologies Private Limited",
+    "email": "admin@atyantik.com",
+    "url": "https://www.atyantik.com/"
   },
   "license": "MIT",
   "babel": {
     "extends": "./core/.babelrc"
   },
-  "dependencies": {}
+  "dependencies": {
+    "date-arithmetic": "^3.1.0",
+    "material-ui": "^1.0.0-beta.21",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "mozjpeg": "^4.1.1",
+    "namor": "^1.0.1",
+    "react-overlays": "^0.8.3",
+    "react-prop-types": "^0.4.0",
+    "react-sizeme": "^2.3.6",
+    "recharts": "^1.0.0-beta.2",
+    "uncontrollable": "^4.1.0"
+  }
 }

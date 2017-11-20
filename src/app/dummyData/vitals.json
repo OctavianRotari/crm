@@ -1,0 +1,147 @@
+{
+  "customer": [
+    {
+      "key": "Status",
+      "value": "LIVE",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Terms",
+      "value": "60 days",
+      "success": false,
+      "warning": true,
+      "danger": false
+    },
+    {
+      "key": "Credit",
+      "value": "£15,000",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Available",
+      "value": "£9,000",
+      "success": true,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Discount",
+      "value": "1.5%",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "FWD S/S",
+      "value": "£4309",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "FWD A/W",
+      "value": "£7634",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Rotation",
+      "value": "12%",
+      "success": true,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Margin",
+      "value": "GOOD",
+      "success": true,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "POS",
+      "value": "NO",
+      "success": false,
+      "warning": false,
+      "danger": true
+    },
+    {
+      "key": "Training",
+      "value": "NO",
+      "success": false,
+      "warning": false,
+      "danger": true
+    },
+    {
+      "key": "Visits",
+      "value": "3/6",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Last Visist",
+      "value": "4 Mar 17",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Scheduled",
+      "value": "14 Aug 17",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Ranging",
+      "value": "proposal 1",
+      "success": false,
+      "warning": false,
+      "danger": false
+    }
+  ],
+  "product": [
+    {
+      "key": "RRP Price",
+      "value": "£9,000",
+      "success": false,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "B2B price",
+      "value": "£9,000",
+      "success": false,
+      "warning": true,
+      "danger": false
+    },
+    {
+      "key": "Rotation",
+      "value": "12%",
+      "success": false,
+      "warning": true,
+      "danger": false
+    },
+    {
+      "key": "Margin",
+      "value": "GOOD",
+      "success": true,
+      "warning": false,
+      "danger": false
+    },
+    {
+      "key": "Colours",
+      "value": "Red",
+      "success": false,
+      "warning": false,
+      "danger": false
+    }
+  ]
+}
+

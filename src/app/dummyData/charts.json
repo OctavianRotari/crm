@@ -1,0 +1,326 @@
+{
+  "legend": [
+    { "value": "You", "id": "you", "type": "square", "color": "#2F909F"},
+    { "value": "UK", "id": "ukPeers", "type": "square", "color": "#F35959" },
+    { "value": "S/S 2016", "id": "lastYear", "type": "square", "color": "#828E9C" }
+  ],
+  "colors": {
+    "peers": "#F35959",
+    "you": "#2F909F",
+    "lastYear": "#828E9C"
+  },
+  "data": {
+    "springSummer": {
+      "2016": {
+        "Mar": { "you": 380, "year": "2016"},
+        "April": { "you": 400, "year": "2016" },
+        "May": { "you": 450, "year": "2016" },
+        "Jun": { "you": 880, "year": "2016" },
+        "Jul": { "you": 1000, "year": "2016" },
+        "Aug": { "you": 950, "year": "2016" }
+      },
+      "2017": {
+        "Mar": {
+          "you": 300,
+          "uk-peers": [ {"name": "James Cant",  "value": 300}, {"name": "Paul Parker",  "value": 300}, {"name": "John Barns",  "value": 300} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 290}, {"name": "Liam Parker",  "value": 290}, {"name": "Benjamin Barns",  "value": 290} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 310}, {"name": "Jacob Parker",  "value": 310}, {"name": "Anton Barns",  "value": 310} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 280}, {"name": "Sebastián Parker",  "value": 280}, {"name": "Mateo Barns",  "value": 280} ]
+        },
+        "April": {
+          "you": 370,
+          "uk-peers": [ {"name": "James Cant",  "value": 370}, {"name": "Paul Parker",  "value": 380}, {"name": "John Barns",  "value": 390} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 360}, {"name": "Liam Parker",  "value": 360}, {"name": "Benjamin Barns",  "value": 360} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 370}, {"name": "Jacob Parker",  "value": 370}, {"name": "Anton Barns",  "value": 370} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "May": {
+          "you": 470,
+          "uk-peers": [ {"name": "James Cant",  "value": 460}, {"name": "Paul Parker",  "value": 440}, {"name": "John Barns",  "value": 470} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 440}, {"name": "Liam Parker",  "value": 460}, {"name": "Benjamin Barns",  "value": 460} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 470}, {"name": "Jacob Parker",  "value": 470}, {"name": "Anton Barns",  "value": 470} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Jun": {
+          "you": 810,
+          "uk-peers": [ {"name": "James Cant",  "value": 870}, {"name": "Paul Parker",  "value": 880}, {"name": "John Barns",  "value": 890} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 810}, {"name": "Liam Parker",  "value": 460}, {"name": "Benjamin Barns",  "value": 460} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 470}, {"name": "Jacob Parker",  "value": 470}, {"name": "Anton Barns",  "value": 470} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Jul": {
+          "you": 1000,
+          "uk-peers": [ {"name": "James Cant",  "value": 1000}, {"name": "Paul Parker",  "value": 1100}, {"name": "John Barns",  "value": 1100} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 1000}, {"name": "Liam Parker",  "value": 1000}, {"name": "Benjamin Barns",  "value": 1000} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 1000}, {"name": "Jacob Parker",  "value": 1000}, {"name": "Anton Barns",  "value": 1000} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 1000}, {"name": "Sebastián Parker",  "value": 1000}, {"name": "Mateo Barns",  "value": 1000} ]
+        },
+        "Aug": {
+          "you": 950,
+          "uk-peers": [ {"name": "James Cant",  "value": 940}, {"name": "Paul Parker",  "value": 950}, {"name": "John Barns",  "value": 960} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 940}, {"name": "Liam Parker",  "value": 940}, {"name": "Benjamin Barns",  "value": 940} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 960}, {"name": "Jacob Parker",  "value": 960}, {"name": "Anton Barns",  "value": 960} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 930}, {"name": "Sebastián Parker",  "value": 930}, {"name": "Mateo Barns",  "value": 930} ]
+        }
+      }
+    },
+    "autumnWinter": {
+      "2016": {
+        "Sep": { "you": 380, "year": "2016"},
+        "Oct": { "you": 400, "year": "2016" },
+        "Nov": { "you": 450, "year": "2016" },
+        "Dec": { "you": 880, "year": "2016" },
+        "Jan": { "you": 1000, "year": "2016" },
+        "Feb": { "you": 950, "year": "2016" }
+      },
+      "2017": {
+        "Sep": {
+          "you": 380,
+          "uk-peers": [ {"name": "James Cant",  "value": 390}, {"name": "Paul Parker",  "value": 300}, {"name": "John Barns",  "value": 300} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 290}, {"name": "Liam Parker",  "value": 290}, {"name": "Benjamin Barns",  "value": 290} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 310}, {"name": "Jacob Parker",  "value": 310}, {"name": "Anton Barns",  "value": 310} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 280}, {"name": "Sebastián Parker",  "value": 280}, {"name": "Mateo Barns",  "value": 280} ]
+        },
+        "Oct": {
+          "you": 400,
+          "uk-peers": [ {"name": "James Cant",  "value": 410}, {"name": "Paul Parker",  "value": 380}, {"name": "John Barns",  "value": 390} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 360}, {"name": "Liam Parker",  "value": 360}, {"name": "Benjamin Barns",  "value": 360} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 370}, {"name": "Jacob Parker",  "value": 370}, {"name": "Anton Barns",  "value": 370} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Nov": {
+          "you": 470,
+          "uk-peers": [ {"name": "James Cant",  "value": 470}, {"name": "Paul Parker",  "value": 440}, {"name": "John Barns",  "value": 470} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 440}, {"name": "Liam Parker",  "value": 460}, {"name": "Benjamin Barns",  "value": 460} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 470}, {"name": "Jacob Parker",  "value": 470}, {"name": "Anton Barns",  "value": 470} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Dec": {
+          "you": null,
+          "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+          "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+        },
+        "Jan": {
+          "you": null,
+          "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+          "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+        },
+        "Feb": {
+          "you": null,
+          "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+          "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+        }
+      }
+    },
+    "yearToDateOrders": {
+      "2016": {
+        "Mar": { "you": 380, "year": "2016"},
+        "April": { "you": 400, "year": "2016" },
+        "May": { "you": 450, "year": "2016" },
+        "Jun": { "you": 880, "year": "2016" },
+        "Jul": { "you": 1000, "year": "2016" },
+        "Aug": { "you": 950, "year": "2016" },
+        "Sep": { "you": 380, "year": "2016"},
+        "Oct": { "you": 400, "year": "2016" },
+        "Nov": { "you": 450, "year": "2016" },
+        "Dec": { "you": 880, "year": "2016" },
+        "Jan": { "you": 1000, "year": "2016" },
+        "Feb": { "you": 950, "year": "2016" }
+      },
+      "2017": {
+        "Mar": {
+          "you": 300,
+          "uk-peers": [ {"name": "James Cant",  "value": 300}, {"name": "Paul Parker",  "value": 300}, {"name": "John Barns",  "value": 300} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 290}, {"name": "Liam Parker",  "value": 290}, {"name": "Benjamin Barns",  "value": 290} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 310}, {"name": "Jacob Parker",  "value": 310}, {"name": "Anton Barns",  "value": 310} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 280}, {"name": "Sebastián Parker",  "value": 280}, {"name": "Mateo Barns",  "value": 280} ]
+        },
+        "April": {
+          "you": 370,
+          "uk-peers": [ {"name": "James Cant",  "value": 370}, {"name": "Paul Parker",  "value": 380}, {"name": "John Barns",  "value": 390} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 360}, {"name": "Liam Parker",  "value": 360}, {"name": "Benjamin Barns",  "value": 360} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 370}, {"name": "Jacob Parker",  "value": 370}, {"name": "Anton Barns",  "value": 370} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "May": {
+          "you": 470,
+          "uk-peers": [ {"name": "James Cant",  "value": 460}, {"name": "Paul Parker",  "value": 440}, {"name": "John Barns",  "value": 470} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 440}, {"name": "Liam Parker",  "value": 460}, {"name": "Benjamin Barns",  "value": 460} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 470}, {"name": "Jacob Parker",  "value": 470}, {"name": "Anton Barns",  "value": 470} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Jun": {
+          "you": 810,
+          "uk-peers": [ {"name": "James Cant",  "value": 870}, {"name": "Paul Parker",  "value": 880}, {"name": "John Barns",  "value": 890} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 810}, {"name": "Liam Parker",  "value": 460}, {"name": "Benjamin Barns",  "value": 460} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 470}, {"name": "Jacob Parker",  "value": 470}, {"name": "Anton Barns",  "value": 470} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Jul": {
+          "you": 1000,
+          "uk-peers": [ {"name": "James Cant",  "value": 1000}, {"name": "Paul Parker",  "value": 1100}, {"name": "John Barns",  "value": 1100} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 1000}, {"name": "Liam Parker",  "value": 1000}, {"name": "Benjamin Barns",  "value": 1000} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 1000}, {"name": "Jacob Parker",  "value": 1000}, {"name": "Anton Barns",  "value": 1000} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 1000}, {"name": "Sebastián Parker",  "value": 1000}, {"name": "Mateo Barns",  "value": 1000} ]
+        },
+        "Aug": {
+          "you": 950,
+          "uk-peers": [ {"name": "James Cant",  "value": 940}, {"name": "Paul Parker",  "value": 950}, {"name": "John Barns",  "value": 960} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 940}, {"name": "Liam Parker",  "value": 940}, {"name": "Benjamin Barns",  "value": 940} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 960}, {"name": "Jacob Parker",  "value": 960}, {"name": "Anton Barns",  "value": 960} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 930}, {"name": "Sebastián Parker",  "value": 930}, {"name": "Mateo Barns",  "value": 930} ]
+        },
+        "Sep": {
+          "you": 300,
+          "uk-peers": [ {"name": "James Cant",  "value": 300}, {"name": "Paul Parker",  "value": 300}, {"name": "John Barns",  "value": 300} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 290}, {"name": "Liam Parker",  "value": 290}, {"name": "Benjamin Barns",  "value": 290} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 310}, {"name": "Jacob Parker",  "value": 310}, {"name": "Anton Barns",  "value": 310} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 280}, {"name": "Sebastián Parker",  "value": 280}, {"name": "Mateo Barns",  "value": 280} ]
+        },
+        "Oct": {
+          "you": 370,
+          "uk-peers": [ {"name": "James Cant",  "value": 370}, {"name": "Paul Parker",  "value": 380}, {"name": "John Barns",  "value": 390} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 360}, {"name": "Liam Parker",  "value": 360}, {"name": "Benjamin Barns",  "value": 360} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 370}, {"name": "Jacob Parker",  "value": 370}, {"name": "Anton Barns",  "value": 370} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Nov": {
+          "you": 470,
+          "uk-peers": [ {"name": "James Cant",  "value": 460}, {"name": "Paul Parker",  "value": 440}, {"name": "John Barns",  "value": 470} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 440}, {"name": "Liam Parker",  "value": 460}, {"name": "Benjamin Barns",  "value": 460} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 470}, {"name": "Jacob Parker",  "value": 470}, {"name": "Anton Barns",  "value": 470} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 380}, {"name": "Sebastián Parker",  "value": 380}, {"name": "Mateo Barns",  "value": 380} ]
+        },
+        "Dec": {
+          "you": null,
+          "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+          "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+        },
+        "Jan": {
+          "you": null,
+          "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+          "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+        },
+        "Feb": {
+          "you": null,
+          "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+          "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+        }
+      }
+    },
+    "visits": {
+      "2016": {
+        "Mar": { "you": 38, "year": "2016"},
+        "April": { "you": 40, "year": "2016" },
+        "May": { "you": 45, "year": "2016" },
+        "Jun": { "you": 88, "year": "2016" },
+        "Jul": { "you": 100, "year": "2016" },
+        "Aug": { "you": 95, "year": "2016" },
+        "Sep": { "you": 38, "year": "2016"},
+        "Oct": { "you": 40, "year": "2016" },
+        "Nov": { "you": 45, "year": "2016" },
+        "Dec": { "you": 88, "year": "2016" },
+        "Jan": { "you": 100, "year": "2016" },
+        "Feb": { "you": 95, "year": "2016" }
+      },
+      "2017": {
+        "Mar": {
+          "you": 30,
+          "uk-peers": [ {"name": "James Cant",  "value": 30}, {"name": "Paul Parker",  "value": 30}, {"name": "John Barns",  "value": 30} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 29}, {"name": "Liam Parker",  "value": 29}, {"name": "Benjamin Barns",  "value": 29} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 31}, {"name": "Jacob Parker",  "value": 31}, {"name": "Anton Barns",  "value": 31} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 28}, {"name": "Sebastián Parker",  "value": 28}, {"name": "Mateo Barns",  "value": 28} ]
+        },
+        "April": {
+          "you": 37,
+          "uk-peers": [ {"name": "James Cant",  "value": 37}, {"name": "Paul Parker",  "value": 38}, {"name": "John Barns",  "value": 39} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 36}, {"name": "Liam Parker",  "value": 36}, {"name": "Benjamin Barns",  "value": 36} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 37}, {"name": "Jacob Parker",  "value": 37}, {"name": "Anton Barns",  "value": 37} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 38}, {"name": "Sebastián Parker",  "value": 38}, {"name": "Mateo Barns",  "value": 38} ]
+        },
+        "May": {
+          "you": 47,
+          "uk-peers": [ {"name": "James Cant",  "value": 46}, {"name": "Paul Parker",  "value": 44}, {"name": "John Barns",  "value": 47} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 44}, {"name": "Liam Parker",  "value": 46}, {"name": "Benjamin Barns",  "value": 46} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 47}, {"name": "Jacob Parker",  "value": 47}, {"name": "Anton Barns",  "value": 47} ],
+          "spanish-peers": [ {"name": "Santiago Cant",  "value": 38}, {"name": "Sebastián Parker",  "value": 38}, {"name": "Mateo Barns",  "value": 38} ]
+        },
+        "Jun": {
+          "you": 81,
+          "uk-peers": [ {"name": "James Cant",  "value": 87}, {"name": "Paul Parker",  "value": 88}, {"name": "John Barns",  "value": 89} ],
+          "us-peers": [ {"name": "Noah Cant",  "value": 81}, {"name": "Liam Parker",  "value": 46}, {"name": "Benjamin Barns",  "value": 46} ],
+          "german-peers": [ {"name": "Max Cant",  "value": 47}, {"name": "Jacob Parker",  "value": 47}, {"name": "Anton Barns",  "value": 47} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": 38}, {"name": "Sebastián Parker",  "value": 38}, {"name": "Mateo Barns",  "value": 38} ]
+          },
+          "Jul": {
+            "you": 10,
+            "uk-peers": [ {"name": "James Cant",  "value": 10}, {"name": "Paul Parker",  "value": 11}, {"name": "John Barns",  "value": 11} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": 10}, {"name": "Liam Parker",  "value": 10}, {"name": "Benjamin Barns",  "value": 10} ],
+            "german-peers": [ {"name": "Max Cant",  "value": 10}, {"name": "Jacob Parker",  "value": 10}, {"name": "Anton Barns",  "value": 10} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": 10}, {"name": "Sebastián Parker",  "value": 10}, {"name": "Mateo Barns",  "value": 10} ]
+          },
+          "Aug": {
+            "you": 95,
+            "uk-peers": [ {"name": "James Cant",  "value": 94}, {"name": "Paul Parker",  "value": 95}, {"name": "John Barns",  "value": 96} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": 94}, {"name": "Liam Parker",  "value": 94}, {"name": "Benjamin Barns",  "value": 94} ],
+            "german-peers": [ {"name": "Max Cant",  "value": 96}, {"name": "Jacob Parker",  "value": 96}, {"name": "Anton Barns",  "value": 96} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": 93}, {"name": "Sebastián Parker",  "value": 93}, {"name": "Mateo Barns",  "value": 93} ]
+          },
+          "Sep": {
+            "you": 30,
+            "uk-peers": [ {"name": "James Cant",  "value": 30}, {"name": "Paul Parker",  "value": 30}, {"name": "John Barns",  "value": 30} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": 29}, {"name": "Liam Parker",  "value": 29}, {"name": "Benjamin Barns",  "value": 29} ],
+            "german-peers": [ {"name": "Max Cant",  "value": 31}, {"name": "Jacob Parker",  "value": 31}, {"name": "Anton Barns",  "value": 31} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": 28}, {"name": "Sebastián Parker",  "value": 28}, {"name": "Mateo Barns",  "value": 28} ]
+          },
+          "Oct": {
+            "you": 37,
+            "uk-peers": [ {"name": "James Cant",  "value": 37}, {"name": "Paul Parker",  "value": 38}, {"name": "John Barns",  "value": 39} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": 36}, {"name": "Liam Parker",  "value": 36}, {"name": "Benjamin Barns",  "value": 36} ],
+            "german-peers": [ {"name": "Max Cant",  "value": 37}, {"name": "Jacob Parker",  "value": 37}, {"name": "Anton Barns",  "value": 37} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": 38}, {"name": "Sebastián Parker",  "value": 38}, {"name": "Mateo Barns",  "value": 38} ]
+          },
+          "Nov": {
+            "you": 47,
+            "uk-peers": [ {"name": "James Cant",  "value": 46}, {"name": "Paul Parker",  "value": 44}, {"name": "John Barns",  "value": 47} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": 44}, {"name": "Liam Parker",  "value": 46}, {"name": "Benjamin Barns",  "value": 46} ],
+            "german-peers": [ {"name": "Max Cant",  "value": 47}, {"name": "Jacob Parker",  "value": 47}, {"name": "Anton Barns",  "value": 47} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": 38}, {"name": "Sebastián Parker",  "value": 38}, {"name": "Mateo Barns",  "value": 38} ]
+          },
+          "Dec": {
+            "you": null,
+            "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+            "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+          },
+          "Jan": {
+            "you": null,
+            "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+            "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+          },
+          "Feb": {
+            "you": null,
+            "uk-peers": [ {"name": "James Cant",  "value": null}, {"name": "Paul Parker",  "value": null}, {"name": "John Barns",  "value": null} ],
+            "us-peers": [ {"name": "Noah Cant",  "value": null}, {"name": "Liam Parker",  "value": null}, {"name": "Benjamin Barns",  "value": null} ],
+            "german-peers": [ {"name": "Max Cant",  "value": null}, {"name": "Jacob Parker",  "value": null}, {"name": "Anton Barns",  "value": null} ],
+            "spanish-peers": [ {"name": "Santiago Cant",  "value": null}, {"name": "Sebastián Parker",  "value": null}, {"name": "Mateo Barns",  "value": null} ]
+          }
+        }
+      }
+    }
+  }

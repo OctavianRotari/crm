@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "from": "you",
+    "message": "Customer having issues paying their outstanding balance",
+    "avatar": "https://source.unsplash.com/100x100/?face"
+  },
+  {
+    "id": 7,
+    "from": "support",
+    "message": "Customer Edinbike having issues paying their outstanding balance",
+    "avatar": "https://source.unsplash.com/100x100/?avatar"
+  },
+  {
+    "id": 1,
+    "from": "you",
+    "message": "Spoke to Chris at Edinburgh Bike Co-op by phone. They are keen to discuss POS system as soon as they return old stock",
+    "avatar": "https://source.unsplash.com/100x100/?face"
+  },
+  {
+    "id": 2,
+    "from": "you",
+    "message": "Chris has 2 kids. His older (oscar) is 9. His youngest (grace) is 6.",
+    "avatar": "https://source.unsplash.com/100x100/?face"
+  },
+  {
+    "id": 3,
+    "from": "you",
+    "message": "Chris has 2 kids. His older (oscar) is 9. His youngest (grace) is 6.",
+    "avatar": "https://source.unsplash.com/100x100/?face"
+  },
+  {
+    "id": 4,
+    "from": "you",
+    "message": "Payment of £4,593 received. New customer balance £0.",
+    "avatar": "https://source.unsplash.com/100x100/?face"
+  },
+  {
+    "id": 5,
+    "from": "support",
+    "message": "Customer having issues paying their outstanding balance",
+    "avatar": "https://source.unsplash.com/100x100/?avatar"
+  },
+  {
+    "id": 6,
+    "from": "support",
+    "message": "Hellen has 2 kids. His older (oscar) is 9. His youngest (grace) is 6.",
+    "avatar": "https://source.unsplash.com/100x100/?avatar"
+  },
+  {
+    "id": 8,
+    "from": "support",
+    "message": "Payment of £4,593 received. New customer balance £0.",
+    "avatar": "https://source.unsplash.com/100x100/?avatar"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "Edinburgh Bike",
+    "time": "9:00",
+    "type": "Training"
+  },
+  {
+    "id": 1,
+    "name": "BorisBike",
+    "time": "9:00",
+    "type": "Sales"
+  },
+  {
+    "id": 2,
+    "name": "Edinburgh Bike",
+    "time": "9:00",
+    "type": "Training"
+  },
+  {
+    "id": 3,
+    "name": "BorisBike",
+    "time": "9:00",
+    "type": "Sales"
+  },
+  {
+    "id": 4,
+    "name": "Edinburgh Bike",
+    "time": "9:00",
+    "type": "Training"
+  },
+  {
+    "id": 5,
+    "name": "BorisBike",
+    "time": "9:00",
+    "type": "Training"
+  },
+  {
+    "id": 6,
+    "name": "Edinburgh Bike",
+    "time": "9:00",
+    "type": "Sales"
+  },
+  {
+    "id": 7,
+    "name": "BorisBike",
+    "time": "9:00",
+    "type": "Training"
+  },
+  {
+    "id": 8,
+    "name": "Edinburgh Bike",
+    "time": "9:00",
+    "type": "Training"
+  },
+  {
+    "id": 9,
+    "name": "BorisBike",
+    "time": "9:00",
+    "type": "Sales"
+  }
+]

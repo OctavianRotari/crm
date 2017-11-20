@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
   "engines": {
-    "node": ">= 8.4.0"
+    "node": "8.4.0"
   },
   "engineStrict": true,
   "devDependencies": {

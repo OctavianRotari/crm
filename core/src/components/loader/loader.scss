@@ -1,23 +1,11 @@
-@import "../../../resources/css/scss/variables";
-@import "../../../resources/css/scss/mixins";
 //screen-loader
-@include keyframes(wave) {
-    0%,
-    100% {
-        @include shadow(0 0 0 $gray-500, 0 0 0 $gray-500);
-    }
-    50% {
-        @include shadow(0 -1em 0 $gray-500, 0 1em 0 $gray-500);
-    }
-}
-
 .loader-section {
-    position: fixed;
-    height: 200vh;
-    width: 200vw;
-    top: -50vh;
-    left: -50vw;
-    background-color: $white;
+    position: absolute;
+    width: 100%;
+    min-height: 220px;
+    /* top: auto; */
+    /* left: 0vw; */
+    background-color: #fff;
     z-index: 9999;
 }
 
@@ -25,8 +13,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    background: $gray-500;
-    @include animation(wave 1s ease-in-out infinite);
     animation-delay: 0.4s;
     width: 1em;
     height: 2em;
@@ -56,16 +42,14 @@
         margin-bottom: -3.125em;
         left: 50%;
         text-align: center;
-        @include transform(translate(-50%, 0%));
-
     }
 }
 
 .animator {
-    opacity: 1;
-    -webkit-transition: opacity 0.25s linear;
-    -moz-transition: opacity 0.25s linear;
-    transition: opacity 0.25s linear;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
 }
 .animator.fade-in {
     opacity: 1;

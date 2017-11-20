@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "name": "Adelle Charles",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  },
+  {
+    "id": 1,
+    "name": "Mario Rossi",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  },
+  {
+    "id": 2,
+    "name": "Gionny Sola",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  },
+  {
+    "id": 3,
+    "name": "Luigi Decicco",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  },
+  {
+    "id": 4,
+    "name": "Alessandro Verde",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  },
+  {
+    "id": 5,
+    "name": "Cristina Rotari",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  },
+  {
+    "id": 6,
+    "name": "Rossi Gianni",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  },
+  {
+    "id": 7,
+    "name": "Adelle Charl",
+    "avatar": "https://source.unsplash.com/profile",
+    "phoneNumber": "+443241234123"
+  }
+]

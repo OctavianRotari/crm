@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 100000000000,
+    "name": "Unifirst Corporation",
+    "category": "Adams Diversified Equity Fund, Inc.",
+    "price": "£30.70",
+    "rrp": "£96.21",
+    "margin": 3,
+    "rotation": 28,
+    "status": 1
+  },
+  {
+    "id": 2,
+    "name": "Duff & Phelps Global Utility Income Fund Inc.",
+    "category": "Carolina Financial Corporation",
+    "price": "£21.93",
+    "rrp": "£67.11",
+    "margin": 3,
+    "rotation": 98,
+    "status": 2
+  },
+  {
+    "id": 3,
+    "name": "Washington Prime Group Inc.",
+    "category": "Western Asset Municipal Partners Fund, Inc.",
+    "price": "£41.04",
+    "rrp": "£28.03",
+    "margin": 1,
+    "rotation": 49,
+    "status": 1
+  },
+  {
+    "id":  4,
+    "name": "Public Service Enterprise Group Incorporated",
+    "category": "Voya Asia Pacific High Equity Income Fund",
+    "price": "£70.46",
+    "rrp": "£22.72",
+    "margin": 1,
+    "rotation": 35,
+    "status": 2
+  },
+  {
+    "id": 5,
+    "name": "Arbor Realty Trust",
+    "category": "Legg Mason, Inc.",
+    "price": "£40.90",
+    "rrp": "£23.77",
+    "margin": 4,
+    "rotation": 27,
+    "status": 1
+  },
+  {
+    "id": 6,
+    "name": "Commerce Bancshares, Inc.",
+    "category": "ClearOne, Inc.",
+    "price": "£68.25",
+    "rrp": "£96.70",
+    "margin": 4,
+    "rotation": 10,
+    "status": 3
+  },
+  {
+    "id": 7,
+    "name": "Omega Protein Corporation",
+    "category": "Matrix Service Company",
+    "price": "£87.00",
+    "rrp": "£20.03",
+    "margin": 1,
+    "rotation": 45,
+    "status": 2
+  },
+  {
+    "id": 8,
+    "name": "Maien Holdings, Ltd.",
+    "category": "Hertz Global Holdings, Inc",
+    "price": "£30.36",
+    "rrp": "£25.61",
+    "margin": 4,
+    "rotation": 54,
+    "status": 3
+  },
+  {
+    "id": 9,
+    "name": "Natera, Inc.",
+    "category": "Rosetta Stone",
+    "price": "£64.84",
+    "rrp": "£23.13",
+    "margin": 3,
+    "rotation": 56,
+    "status": 2
+  },
+  {
+    "id": 10,
+    "name": "Ultralife Corporation",
+    "category": "Resources Connection, Inc.",
+    "price": "£43.02",
+    "rrp": "£0.73",
+    "margin": 4,
+    "rotation": 97,
+    "status": 3
+  },
+  {
+    "id": 20,
+    "name": "Saul Centers, Inc.",
+    "category": "Cerus Corporation",
+    "price": "£43.39",
+    "rrp": "£40.35",
+    "margin": 4,
+    "rotation": 16,
+    "status": 2
+  },
+  {
+    "id": 30,
+    "name": "Summit Hotel Properties, Inc.",
+    "category": "Landmark Infrastructure Partners LP",
+    "price": "£84.24",
+    "rrp": "£30.25",
+    "margin": 1,
+    "rotation": 45,
+    "status": 1
+  },
+  {
+    "id": 40,
+    "name": "BB&T Corporation",
+    "category": "SunTrust Banks, Inc.",
+    "price": "£20.03",
+    "rrp": "£28.45",
+    "margin": 4,
+    "rotation": 76,
+    "status": 3
+  },
+  {
+    "id": 50,
+    "name": "Blackrock Debt Strategies Fund, Inc.",
+    "category": "InnerWorkings, Inc.",
+    "price": "£54.33",
+    "rrp": "£88.67",
+    "margin": 1,
+    "rotation": 9,
+    "status": 3
+  },
+  {
+    "id": 60,
+    "name": "Turkish Investment Fund, Inc. (The)",
+    "category": "Blackrock New York Municipal 2018 Term Trust",
+    "price": "£70.82",
+    "rrp": "£89.41",
+    "margin": 2,
+    "rotation": 58,
+    "status": 1
+  },
+  {
+    "id": 70,
+    "name": "G. Willi-Food International,  Ltd.",
+    "category": "Amplify Online Retail ETF",
+    "price": "£21.16",
+    "rrp": "£50.74",
+    "margin": 2,
+    "rotation": 85,
+    "status": 3
+  },
+  {
+    "id": 80,
+    "name": "Kratos Defense & Security Solutions, Inc.",
+    "category": "McCormick & Company, Incorporated",
+    "price": "£51.54",
+    "rrp": "£71.90",
+    "margin": 2,
+    "rotation": 70,
+    "status": 1
+  },
+  {
+    "id": 90,
+    "name": "Asia Tigers Fund, Inc. (The)",
+    "category": "Ashford Hospitality Trust Inc",
+    "price": "£94.56",
+    "rrp": "£14.87",
+    "margin": 1,
+    "rotation": 7,
+    "status": 3
+  },
+  {
+    "id": 100,
+    "name": "Tsakos Energy Navigation Ltd",
+    "category": "Chimera Investment Corporation",
+    "price": "£88.95",
+    "rrp": "£15.60",
+    "margin": 4,
+    "rotation": 57,
+    "status": 3
+  },
+  {
+    "id": 200,
+    "name": "TIM Participacoes S.A.",
+    "category": "Taylor Devices, Inc.",
+    "price": "£46.59",
+    "rrp": "£5.83",
+    "margin": 4,
+    "rotation": 13,
+    "status": 2
+  },
+  {
+    "id": 300,
+    "name": "Zions Bancorporation",
+    "category": "AlphaMark Actively Managed Small Cap ETF",
+    "price": "£13.91",
+    "rrp": "£63.47",
+    "margin": 1,
+    "rotation": 13,
+    "status": 2
+  },
+  {
+    "id": 400,
+    "name": "Texas Capital Bancshares, Inc.",
+    "category": "Western Gas Equity Partners, LP",
+    "price": "£99.18",
+    "rrp": "£24.99",
+    "margin": 3,
+    "rotation": 79,
+    "status": 2
+  },
+  {
+    "id": 500,
+    "name": "Newtek Business Services Corp.",
+    "category": "Novartis AG",
+    "price": "£42.20",
+    "rrp": "£2.08",
+    "margin": 2,
+    "rotation": 43,
+    "status": 2
+  },
+  {
+    "id": 600,
+    "name": "ASB Bancorp, Inc.",
+    "category": "The Hanover Insurance Group, Inc.",
+    "price": "£77.29",
+    "rrp": "£89.37",
+    "margin": 2,
+    "rotation": 59,
+    "status": 2
+  },
+  {
+    "id": 700,
+    "name": "Investors Bancorp, Inc.",
+    "category": "Maden Holdings, Ltd.",
+    "price": "£84.51",
+    "rrp": "£70.76",
+    "margin": 2,
+    "rotation": 47,
+    "status": 1
+  },
+  {
+    "id": 800,
+    "name": "GenVec, Inc.",
+    "category": "First Trust International Multi-Asset Diversified Income Index",
+    "price": "£2.54",
+    "rrp": "£18.32",
+    "margin": 1,
+    "rotation": 97,
+    "status": 3
+  },
+  {
+    "id": 900,
+    "name": "Alimera Sciences, Inc.",
+    "category": "Unifirst Corporation",
+    "price": "£80.26",
+    "rrp": "£31.26",
+    "margin": 3,
+    "rotation": 57,
+    "status": 3
+  },
+  {
+    "id": 1000,
+    "name": "Barrett Business Services, Inc.",
+    "category": "Mdland States Bancorp, Inc.",
+    "price": "£70.99",
+    "rrp": "£18.59",
+    "margin": 4,
+    "rotation": 25,
+    "status": 1
+  },
+  {
+    "id": 2000,
+    "name": "Triumph Group, Inc.",
+    "category": "JetPay Corporation",
+    "price": "£13.87",
+    "rrp": "£32.29",
+    "margin": 3,
+    "rotation": 75,
+    "status": 2
+  },
+  {
+    "id": 3000,
+    "name": "Ophthotech Corporation",
+    "category": "Golden Ocean Group Limited",
+    "price": "£36.88",
+    "rrp": "£44.34",
+    "margin": 4,
+    "rotation": 42,
+    "status": 3
+  },
+  {
+    "id": 4000,
+    "name": "China Green Agriculture, Inc.",
+    "category": "Ubiquiti Networks, Inc.",
+    "price": "£36.49",
+    "rrp": "£50.30",
+    "margin": 1,
+    "rotation": 96,
+    "status": 2
+  },
+  {
+    "id": 5000,
+    "name": "Dimension Therapeutics, Inc.",
+    "category": "Eagle Point Credit Company Inc.",
+    "price": "£70.96",
+    "rrp": "£18.60",
+    "margin": 2,
+    "rotation": 97,
+    "status": 1
+  },
+  {
+    "id": 6000,
+    "name": "ConforMIS, Inc.",
+    "category": "OncoGenex Pharmaceuticals Inc.",
+    "price": "£22.12",
+    "rrp": "£75.09",
+    "margin": 2,
+    "rotation": 30,
+    "status": 1
+  },
+  {
+    "id": 7000,
+    "name": "Cellectar Biosciences, Inc.",
+    "category": "American Superconductor Corporation",
+    "price": "£87.07",
+    "rrp": "£97.63",
+    "margin": 1,
+    "rotation": 56,
+    "status": 1
+  },
+  {
+    "id": 8000,
+    "name": "Emergent Biosolutions, Inc.",
+    "category": "JMP Group LLC",
+    "price": "£21.93",
+    "rrp": "£7.57",
+    "margin": 1,
+    "rotation": 68,
+    "status": 2
+  },
+  {
+    "id": 9000,
+    "name": "Accelerate Diagnostics, Inc.",
+    "category": "Beazer Homes USA, Inc.",
+    "price": "£53.90",
+    "rrp": "£55.96",
+    "margin": 1,
+    "rotation": 73,
+    "status": 2
+  },
+  {
+    "id": 10000,
+    "name": "Golar LNG Partners LP",
+    "category": "Templeton Dragon Fund, Inc.",
+    "price": "£32.51",
+    "rrp": "£22.44",
+    "margin": 4,
+    "rotation": 25,
+    "status": 1
+  },
+  {
+    "id": 20000,
+    "name": "Isramco, Inc.",
+    "category": "Argo Group International Holdings, Ltd.",
+    "price": "£80.28",
+    "rrp": "£86.60",
+    "margin": 2,
+    "rotation": 67,
+    "status": 3
+  },
+  {
+    "id": 30000,
+    "name": "Danaher Corporation",
+    "category": "EPR Properties",
+    "price": "£83.21",
+    "rrp": "£53.42",
+    "margin": 3,
+    "rotation": 63,
+    "status": 2
+  },
+  {
+    "id": 40000,
+    "name": "Sibanye Gold Limited",
+    "category": "iShares Fallen Angels USD Bond ETF",
+    "price": "£53.40",
+    "rrp": "£4.18",
+    "margin": 1,
+    "rotation": 79,
+    "status": 3
+  },
+  {
+    "id": 50000,
+    "name": "Two Harbors Investments Corp",
+    "category": "Pioneer Natural Resources Company",
+    "price": "£11.58",
+    "rrp": "£79.76",
+    "margin": 3,
+    "rotation": 89,
+    "status": 2
+  },
+  {
+    "id": 60000,
+    "name": "PowerShares DWA Momentum & Low Volatility Rotation Portfolio",
+    "category": "Voya Global Advantage and Premium Opportunity Fund",
+    "price": "£55.40",
+    "rrp": "£81.25",
+    "margin": 1,
+    "rotation": 48,
+    "status": 3
+  },
+  {
+    "id": 70000,
+    "name": "Asta Funding, Inc.",
+    "category": "Cogint, Inc.",
+    "price": "£31.89",
+    "rrp": "£81.16",
+    "margin": 1,
+    "rotation": 100,
+    "status": 3
+  },
+  {
+    "id": 80000,
+    "name": "Five Oaks Investment Corp.",
+    "category": "Akamai Technologies, Inc.",
+    "price": "£7.86",
+    "rrp": "£74.94",
+    "margin": 1,
+    "rotation": 10,
+    "status": 3
+  },
+  {
+    "id": 90000,
+    "name": "Citigroup Inc.",
+    "category": "Orion Energy Systems, Inc.",
+    "price": "£35.67",
+    "rrp": "£64.77",
+    "margin": 1,
+    "rotation": 31,
+    "status": 3
+  },
+  {
+    "id": 100000,
+    "name": "Honda Motor Company, Ltd.",
+    "category": "Mercer International Inc.",
+    "price": "£71.57",
+    "rrp": "£30.60",
+    "margin": 2,
+    "rotation": 60,
+    "status": 3
+  },
+  {
+    "id": 200000,
+    "name": "R.R. Donnelley & Sons Company",
+    "category": "Putnam Managed Municipal Income Trust",
+    "price": "£72.63",
+    "rrp": "£84.15",
+    "margin": 2,
+    "rotation": 42,
+    "status": 1
+  },
+  {
+    "id": 300000,
+    "name": "Jacksonville Bancorp Inc.",
+    "category": "ProShares UltraPro Short NASDAQ Biotechnology",
+    "price": "£93.40",
+    "rrp": "£93.71",
+    "margin": 3,
+    "rotation": 51,
+    "status": 2
+  },
+  {
+    "id": 400000,
+    "name": "Entergy Mississippi, Inc.",
+    "category": "OFS Capital Corporation",
+    "price": "£99.50",
+    "rrp": "£39.62",
+    "margin": 3,
+    "rotation": 89,
+    "status": 1
+  },
+  {
+    "id": 500000,
+    "name": "Evolving Systems, Inc.",
+    "category": "Neff Corporation",
+    "price": "£86.64",
+    "rrp": "£58.97",
+    "margin": 3,
+    "rotation": 80,
+    "status": 1
+  },
+  {
+    "id": 600000,
+    "name": "MGM Resorts International",
+    "category": "Broadwind Energy, Inc.",
+    "price": "£73.03",
+    "rrp": "£72.96",
+    "margin": 4,
+    "rotation": 21,
+    "status": 3
+  },
+  {
+    "id": 700000,
+    "name": "MobileIron, Inc.",
+    "category": "Gamco Investors, Inc.",
+    "price": "£13.17",
+    "rrp": "£34.19",
+    "margin": 3,
+    "rotation": 28,
+    "status": 2
+  },
+  {
+    "id": 800000,
+    "name": "First Solar, Inc.",
+    "category": "John Wiley & Sons, Inc.",
+    "price": "£27.62",
+    "rrp": "£84.78",
+    "margin": 4,
+    "rotation": 60,
+    "status": 2
+  },
+  {
+    "id": 900000,
+    "name": "Nuveen New York AMT-Free Quality Municipal",
+    "category": "Wells Fargo & Company",
+    "price": "£21.10",
+    "rrp": "£64.02",
+    "margin": 4,
+    "rotation": 58,
+    "status": 2
+  },
+  {
+    "id": 1000000,
+    "name": "Source Capital, Inc.",
+    "category": "BlackRock Investment Quality Municipal Trust Inc. (The)",
+    "price": "£37.27",
+    "rrp": "£11.16",
+    "margin": 2,
+    "rotation": 2,
+    "status": 3
+  },
+  {
+    "id": 2000000,
+    "name": "Medical Transcription Billing, Corp.",
+    "category": "Tsakos Energy Navigation Ltd",
+    "price": "£64.58",
+    "rrp": "£85.09",
+    "margin": 3,
+    "rotation": 24,
+    "status": 2
+  },
+  {
+    "id": 3000000,
+    "name": "Golar LNG Limited",
+    "category": "Sino-Global Shipping America, Ltd.",
+    "price": "£17.63",
+    "rrp": "£43.76",
+    "margin": 4,
+    "rotation": 68,
+    "status": 2
+  },
+  {
+    "id": 4000000,
+    "name": "Symantec Corporation",
+    "category": "Seneca Foods Corp.",
+    "price": "£6.58",
+    "rrp": "£53.15",
+    "margin": 4,
+    "rotation": 14,
+    "status": 3
+  },
+  {
+    "id": 5000000,
+    "name": "Invesco California Value Municipal Income Trust",
+    "category": "Arista Networks, Inc.",
+    "price": "£54.72",
+    "rrp": "£56.48",
+    "margin": 2,
+    "rotation": 68,
+    "status": 1
+  },
+  {
+    "id": 6000000,
+    "name": "Frequency Electronics, Inc.",
+    "category": "First Trust",
+    "price": "£40.59",
+    "rrp": "£40.07",
+    "margin": 3,
+    "rotation": 23,
+    "status": 3
+  },
+  {
+    "id": 7000000,
+    "name": "EZCORP, Inc.",
+    "category": "Banco Santander, S.A.",
+    "price": "£5.35",
+    "rrp": "£85.27",
+    "margin": 3,
+    "rotation": 37,
+    "status": 2
+  },
+  {
+    "id": 8000000,
+    "name": "Carnival Corporation",
+    "category": "Sonoma Pharmaceuticals, Inc.",
+    "price": "£46.79",
+    "rrp": "£71.40",
+    "margin": 2,
+    "rotation": 27,
+    "status": 1
+  },
+  {
+    "id": 9000000,
+    "name": "RLJ Lodging Trust",
+    "category": "Sterling Construction Company Inc",
+    "price": "£61.28",
+    "rrp": "£11.29",
+    "margin": 1,
+    "rotation": 60,
+    "status": 2
+  },
+  {
+    "id": 10000000,
+    "name": "Barington/Hilco Acquisition Corp.",
+    "category": "NVE Corporation",
+    "price": "£50.23",
+    "rrp": "£49.15",
+    "margin": 3,
+    "rotation": 41,
+    "status": 3
+  },
+  {
+    "id": 20000000,
+    "name": "Unilever PLC",
+    "category": "Ecopetrol S.A.",
+    "price": "£48.26",
+    "rrp": "£14.32",
+    "margin": 2,
+    "rotation": 12,
+    "status": 1
+  },
+  {
+    "id": 30000000,
+    "name": "Harte-Hanks, Inc.",
+    "category": "Blackstone GSO Long Short Credit Income Fund",
+    "price": "£67.75",
+    "rrp": "£64.84",
+    "margin": 3,
+    "rotation": 65,
+    "status": 3
+  },
+  {
+    "id": 40000000,
+    "name": "Nuveen Core Equity Alpha Fund",
+    "category": "MFS Municipal Income Trust",
+    "price": "£31.49",
+    "rrp": "£53.77",
+    "margin": 4,
+    "rotation": 5,
+    "status": 3
+  },
+  {
+    "id": 50000000,
+    "name": "On Track Innovations Ltd",
+    "category": "SVB Financial Group",
+    "price": "£38.04",
+    "rrp": "£7.54",
+    "margin": 3,
+    "rotation": 57,
+    "status": 2
+  },
+  {
+    "id": 60000000,
+    "name": "OceanFirst Financial Corp.",
+    "category": "IntriCon Corporation",
+    "price": "£81.75",
+    "rrp": "£32.58",
+    "margin": 2,
+    "rotation": 81,
+    "status": 2
+  },
+  {
+    "id": 70000000,
+    "name": "McDonald&#39;s Corporation",
+    "category": "Entergy Louisiana, Inc.",
+    "price": "£98.05",
+    "rrp": "£50.03",
+    "margin": 1,
+    "rotation": 30,
+    "status": 3
+  },
+  {
+    "id": 80000000,
+    "name": "Chesapeake Energy Corporation",
+    "category": "Quarterhill Inc.",
+    "price": "£25.14",
+    "rrp": "£60.24",
+    "margin": 2,
+    "rotation": 80,
+    "status": 3
+  },
+  {
+    "id": 90000000,
+    "name": "Sarepta Therapeutics, Inc.",
+    "category": "Badger Meter, Inc.",
+    "price": "£39.38",
+    "rrp": "£31.35",
+    "margin": 4,
+    "rotation": 93,
+    "status": 3
+  },
+  {
+    "id": 100000000,
+    "name": "MRV Communications, Inc.",
+    "category": "Glen Burnie Bancorp",
+    "price": "£10.17",
+    "rrp": "£59.07",
+    "margin": 4,
+    "rotation": 52,
+    "status": 2
+  },
+  {
+    "id": 200000000,
+    "name": "National Retail Properties",
+    "category": "TriplePoint Venture Growth BDC Corp.",
+    "price": "£77.55",
+    "rrp": "£21.08",
+    "margin": 2,
+    "rotation": 2,
+    "status": 1
+  },
+  {
+    "id": 300000000,
+    "name": "Alamo Group, Inc.",
+    "category": "Regal Entertainment Group",
+    "price": "£26.80",
+    "rrp": "£58.63",
+    "margin": 1,
+    "rotation": 43,
+    "status": 2
+  },
+  {
+    "id": 400000000,
+    "name": "FedEx Corporation",
+    "category": "Avd Technology, Inc.",
+    "price": "£50.69",
+    "rrp": "£17.66",
+    "margin": 2,
+    "rotation": 96,
+    "status": 3
+  },
+  {
+    "id": 500000000,
+    "name": "Opexa Therapeutics, Inc.",
+    "category": "Xplore Technologies Corp",
+    "price": "£6.61",
+    "rrp": "£72.81",
+    "margin": 1,
+    "rotation": 1,
+    "status": 3
+  },
+  {
+    "id": 600000000,
+    "name": "Centene Corporation",
+    "category": "Banco Santander, S.A.",
+    "price": "£16.99",
+    "rrp": "£30.72",
+    "margin": 4,
+    "rotation": 23,
+    "status": 3
+  },
+  {
+    "id": 700000000,
+    "name": "Capitala Finance Corp.",
+    "category": "Pacific Coast Oil Trust",
+    "price": "£12.50",
+    "rrp": "£19.30",
+    "margin": 4,
+    "rotation": 81,
+    "status": 1
+  },
+  {
+    "id": 800000000,
+    "name": "Entergy Arkansas, Inc.",
+    "category": "Douglas Emmett, Inc.",
+    "price": "£89.67",
+    "rrp": "£94.67",
+    "margin": 1,
+    "rotation": 55,
+    "status": 3
+  },
+  {
+    "id": 900000000,
+    "name": "Rite Ad Corporation",
+    "category": "Dominion Energy, Inc.",
+    "price": "£2.82",
+    "rrp": "£98.71",
+    "margin": 3,
+    "rotation": 19,
+    "status": 1
+  },
+  {
+    "id": 1000000000,
+    "name": "Oramed Pharmaceuticals Inc.",
+    "category": "American Airlines Group, Inc.",
+    "price": "£37.75",
+    "rrp": "£11.49",
+    "margin": 4,
+    "rotation": 45,
+    "status": 1
+  },
+  {
+    "id": 2000000000,
+    "name": "Manulife Financial Corp",
+    "category": "Global Water Resources, Inc.",
+    "price": "£2.70",
+    "rrp": "£17.41",
+    "margin": 3,
+    "rotation": 34,
+    "status": 3
+  },
+  {
+    "id": 3000000000,
+    "name": "Approach Resources Inc.",
+    "category": "J.C. Penney Company, Inc. Holding Company",
+    "price": "£95.20",
+    "rrp": "£40.45",
+    "margin": 4,
+    "rotation": 41,
+    "status": 1
+  },
+  {
+    "id": 4000000000,
+    "name": "Bank of America Corporation",
+    "category": "KKR Financial Holdings LLC",
+    "price": "£47.56",
+    "rrp": "£61.71",
+    "margin": 3,
+    "rotation": 88,
+    "status": 1
+  },
+  {
+    "id": 5000000000,
+    "name": "Sify Technologies Limited",
+    "category": "Eldorado Gold Corporation",
+    "price": "£0.47",
+    "rrp": "£87.49",
+    "margin": 4,
+    "rotation": 98,
+    "status": 3
+  },
+  {
+    "id": 6000000000,
+    "name": "CVB Financial Corporation",
+    "category": "Fdelity and Guaranty Life",
+    "price": "£50.87",
+    "rrp": "£72.03",
+    "margin": 3,
+    "rotation": 29,
+    "status": 3
+  },
+  {
+    "id": 7000000000,
+    "name": "Brookfield Renewable Partners L.P.",
+    "category": "Oil States International, Inc.",
+    "price": "£48.54",
+    "rrp": "£25.04",
+    "margin": 2,
+    "rotation": 59,
+    "status": 3
+  },
+  {
+    "id": 8000000000,
+    "name": "Equity Resdential",
+    "category": "Federated National Holding Company",
+    "price": "£42.03",
+    "rrp": "£54.50",
+    "margin": 4,
+    "rotation": 99,
+    "status": 1
+  },
+  {
+    "id": 9000000000,
+    "name": "Erie Indemnity Company",
+    "category": "SuperValu Inc.",
+    "price": "£70.89",
+    "rrp": "£99.60",
+    "margin": 2,
+    "rotation": 84,
+    "status": 3
+  },
+  {
+    "id": 10000000000,
+    "name": "Cognizant Technology Solutions Corporation",
+    "category": "Biolase, Inc.",
+    "price": "£84.32",
+    "rrp": "£30.82",
+    "margin": 3,
+    "rotation": 58,
+    "status": 1
+  },
+  {
+    "id": 20000000000,
+    "name": "Charter Financial Corp.",
+    "category": "Diageo plc",
+    "price": "£69.00",
+    "rrp": "£1.54",
+    "margin": 3,
+    "rotation": 79,
+    "status": 1
+  },
+  {
+    "id": 30000000000,
+    "name": "CenterState Banks, Inc.",
+    "category": "Vantage Energy Acquisition Corp.",
+    "price": "£0.10",
+    "rrp": "£55.44",
+    "margin": 1,
+    "rotation": 43,
+    "status": 3
+  },
+  {
+    "id": 40000000000,
+    "name": "Md-Con Energy Partners, LP",
+    "category": "Kingold Jewelry Inc.",
+    "price": "£80.93",
+    "rrp": "£74.71",
+    "margin": 1,
+    "rotation": 58,
+    "status": 1
+  },
+  {
+    "id": 50000000000,
+    "name": "Ambac Financial Group, Inc.",
+    "category": "Tuttle Tactical Management U.S. Core ETF",
+    "price": "£15.93",
+    "rrp": "£61.95",
+    "margin": 3,
+    "rotation": 90,
+    "status": 2
+  },
+  {
+    "id": 60000000000,
+    "name": "Pilgrim&#39;s Prde Corporation",
+    "category": "Northrop Grumman Corporation",
+    "price": "£68.95",
+    "rrp": "£37.23",
+    "margin": 2,
+    "rotation": 62,
+    "status": 3
+  },
+  {
+    "id": 70000000000,
+    "name": "Park Sterling Corporation",
+    "category": "Eastern Virginia Bankshares, Inc.",
+    "price": "£83.22",
+    "rrp": "£62.94",
+    "margin": 1,
+    "rotation": 41,
+    "status": 3
+  },
+  {
+    "id": 80000000000,
+    "name": "Harvest Capital Credit Corporation",
+    "category": "Wynn Resorts, Limited",
+    "price": "£78.54",
+    "rrp": "£91.21",
+    "margin": 2,
+    "rotation": 15,
+    "status": 2
+  },
+  {
+    "id": 90000000000,
+    "name": "Eyegate Pharmaceuticals, Inc.",
+    "category": "GATX Corporation",
+    "price": "£50.07",
+    "rrp": "£51.27",
+    "margin": 4,
+    "rotation": 98,
+    "status": 3
+  },
+  {
+    "id": 100000000000,
+    "name": "PIMCO Commercial Mortgage Securities Trust, Inc.",
+    "category": "Capital One Financial Corporation",
+    "price": "£49.22",
+    "rrp": "£29.40",
+    "margin": 2,
+    "rotation": 16,
+    "status": 1
+  }
+]

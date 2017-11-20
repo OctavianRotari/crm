@@ -1,15 +1,19 @@
-import {configureRoutes} from "core/utils/bundler";
+// @flow
+import { configureRoutes } from "../core/src/utils/bundler";
+
 // routes
-import * as Home from "./pages/home";
-import * as About from "./pages/about";
-import * as Contact from "./pages/contact";
-import * as Blog from "./pages/blog";
-import * as ProgressiveImageRendering from "./pages/progressive-image-rendering";
+import * as Activity from "./pages/Activity";
+import * as Customers from "./pages/Customers";
+import * as Dashboard from "./pages/Dashboard";
+import * as Products from "./pages/Products";
+import * as Registration from "./pages/Registration";
+import * as Schedule from "./pages/Schedule";
 
 export default configureRoutes([
-  Home,
-  About,
-  Contact,
-  Blog,
-  ProgressiveImageRendering
+    Activity,
+    Customers,
+    Dashboard,
+    Products,
+    Registration,
+    Schedule
 ]);
