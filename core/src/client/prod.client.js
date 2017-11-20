@@ -19,7 +19,7 @@ const supportsServiceWorker = !!_.get(window, "navigator.serviceWorker", false);
 
 // Add update routes globally
 ((w) =>{
-  
+
   w.__updatePage = ({ routes, bundleKey, reducers }) => {
     const routesloadEvent = new CustomEvent("routesload");
     injectAsyncReducers(global.store, reducers);
@@ -27,14 +27,14 @@ const supportsServiceWorker = !!_.get(window, "navigator.serviceWorker", false);
       routes: configureRoutes([{default: routes, bundleKey: bundleKey}]),
       collectedRoutes: global.collectedRoutes
     });
-    
+
     w.dispatchEvent(routesloadEvent);
   };
-  
+
   w.__renderRoutes = () => {
     renderRoutesWrapper({url: window.location.pathname});
   };
-  
+
 })(window);
 
 const updateByUrl = (url) => {
@@ -42,9 +42,9 @@ const updateByUrl = (url) => {
     animateFadeOut(global).then(() => {
       // Show screen loader asap
       !global.isInitialLoad && showScreenLoader(global.store);
-    
+
       const module = getModuleByUrl(url);
-    
+
       if (!module) {
         // If no module found for the route simple ask to render it as it will display
         // 404 page
@@ -60,7 +60,7 @@ const updateByUrl = (url) => {
         });
         return resolve();
       }
-    
+
       if (isModuleLoaded(url, global.collectedRoutes)) {
         return renderRoutesWrapper({ url }).then(() => {
           animateFadeIn(global);
@@ -75,10 +75,10 @@ const updateByUrl = (url) => {
 };
 
 global.unlisten = global.history.listen( location => {
-  
+
   // Set the record for last changed url
   global.previousUrl = location.pathname;
-  
+
   if (window["ignoreHistoryChange"]) {
     window["ignoreHistoryChange"] = null;
     delete window["ignoreHistoryChange"];
@@ -88,7 +88,7 @@ global.unlisten = global.history.listen( location => {
     // Execute onPageChange Event
     global.onPageChange && _.isFunction(global.onPageChange) && global.onPageChange();
   });
-  
+
 });
 
 global.previousUrl = window.location.pathname;
@@ -100,11 +100,11 @@ if (!global.isSWInitialized && supportsServiceWorker) {
   const serviceWorker = _.get(window, "navigator.serviceWorker", {
     register: async () => Promise.reject("Browser does not support service workers!")
   });
-  
+
   // Register service worker
   serviceWorker.register("/sw.js", {scope: "/"})
     .then(reg => {
-      
+
       // Inform API that it can now accept sw cache global
       ApiInstance.setState("SW_ENABLED", true);
       reg.onupdatefound = function() {
@@ -123,7 +123,7 @@ if (!global.isSWInitialized && supportsServiceWorker) {
       // eslint-disable-next-line
       console.log("Cannot register Service Worker: ", err);
     });
-  
+
   // @todo handle messaging via service worker
   if (serviceWorker.addEventListener) {
     serviceWorker.addEventListener("message", (event) => {

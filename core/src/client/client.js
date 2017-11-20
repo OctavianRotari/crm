@@ -17,21 +17,21 @@ import ApiInstance from "../libs/api";
 
 // Polyfill for CustomEvent & window.location.origin
 (function(w) {
-  // Adding origin to non-supported browsers
-  if (!w.location.origin) {
-    w.location.origin = w.location.protocol + "//" + w.location.hostname + (w.location.port ? ":" + w.location.port: "");
-  }
-  
-  // Adding custom event
-  if ( typeof w.CustomEvent === "function" ) return false; //If not IE
-  function CustomEvent ( event, params ) {
-    params = params || { bubbles: false, cancelable: false, detail: undefined };
-    let evt = document.createEvent( "CustomEvent" );
-    evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
-    return evt;
-  }
-  CustomEvent.prototype = w.Event.prototype;
-  w.CustomEvent = CustomEvent;
+    // Adding origin to non-supported browsers
+    if (!w.location.origin) {
+        w.location.origin = w.location.protocol + "//" + w.location.hostname + (w.location.port ? ":" + w.location.port: "");
+    }
+
+    // Adding custom event
+    if ( typeof w.CustomEvent === "function" ) return false; //If not IE
+    function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: undefined };
+        let evt = document.createEvent( "CustomEvent" );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+    }
+    CustomEvent.prototype = w.Event.prototype;
+    w.CustomEvent = CustomEvent;
 })(window);
 
 const __development = process.env.NODE_ENV === "development";
@@ -41,8 +41,8 @@ const hot = !!module.hot && __development;
 // Set a namespace-d global when in development mode
 let global = {};
 if (hot && typeof window !== "undefined") {
-  global = window["__GLOBALS"] || global;
-  window["__GLOBALS"] = global;
+    global = window["__GLOBALS"] || global;
+    window["__GLOBALS"] = global;
 }
 
 // Custom reducers
@@ -62,14 +62,14 @@ global.history = global.history || createHistory();
 
 // Create redux store
 global.store = global.store || configureStore({
-  history: global.history,
-  
-  initialState: _.assignIn({}, {
-    network: {
-      state: window.navigator.onLine ? NETWORK_STATE_ONLINE: NETWORK_STATE_OFFLINE,
-    }
-  }, reduxInitialState),
-  ...(reduxReducers ? { reducers: reduxReducers} : {})
+    history: global.history,
+
+    initialState: _.assignIn({}, {
+        network: {
+            state: window.navigator.onLine ? NETWORK_STATE_ONLINE: NETWORK_STATE_OFFLINE,
+        }
+    }, reduxInitialState),
+    ...(reduxReducers ? { reducers: reduxReducers} : {})
 });
 
 // check if application is loaded initially or its just a hot update from HMR
@@ -86,7 +86,7 @@ global.previousUrl = global.previousUrl || "";
  * Need to check for online/offline status
  */
 const updateNetworkStatus = (status) => {
-  global.store.dispatch((status === NETWORK_STATE_ONLINE ? networkOnline(): networkOffline()));
+    global.store.dispatch((status === NETWORK_STATE_ONLINE ? networkOnline(): networkOffline()));
 };
 const setNetworkOnline = () => updateNetworkStatus(NETWORK_STATE_ONLINE);
 const setNetworkOffline = () => updateNetworkStatus(NETWORK_STATE_OFFLINE);
@@ -107,24 +107,24 @@ global.renderRoot = global.renderRoot || document.getElementById("app");
 
 export const renderRoutesWrapper = ({ url = global.previousUrl }) => {
 
-  return renderRoutes({
-    url: url,
-    store: global.store,
-    history: global.history,
-    renderRoot: global.renderRoot,
-    collectedRoutes: global.collectedRoutes,
-    global: {
-      isInitialLoad: global.isInitialLoad
-    }
-  }).then(() => {
-    global.isInitialLoad = false;
-    animateFadeIn(global);
-  }).catch((ex) => {
-    // eslint-disable-next-line
-    console.log(ex);
-    global.isInitialLoad = false;
-    animateFadeIn(global);
-  });
+    return renderRoutes({
+        url: url,
+        store: global.store,
+        history: global.history,
+        renderRoot: global.renderRoot,
+        collectedRoutes: global.collectedRoutes,
+        global: {
+            isInitialLoad: global.isInitialLoad
+        }
+    }).then(() => {
+        global.isInitialLoad = false;
+        animateFadeIn(global);
+    }).catch((ex) => {
+        // eslint-disable-next-line
+        console.log(ex);
+        global.isInitialLoad = false;
+        animateFadeIn(global);
+    });
 };
 
 export default global;

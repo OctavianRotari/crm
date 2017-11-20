@@ -76,7 +76,7 @@ export default {
         "client": [
             "babel-polyfill",
             path.resolve(path.join(coreSrcDir, "/client/prod.client.js")),
-            (hasCommonStyle ? path.join(srcDir, "resources", "css", "style.scss"): undefined)
+            // (hasCommonStyle ? path.join(srcDir, "resources", "css", "style.scss"): undefined)
         ]
     }, entries),
 

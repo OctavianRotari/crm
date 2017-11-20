@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import PropTypes from "prop-types";
-import * as styles from "./error-500.scss";
+// import * as styles from "./error-500.scss";
 
 export default class ErrorPage extends Component {
   static propTypes = {

@@ -13,9 +13,9 @@ const updateByUrl = (url) => {
     animateFadeOut(global).then(() => {
       // Show screen loader asap
       !global.isInitialLoad && showScreenLoader(global.store);
-    
+
       const module = getModuleByUrl(url, global.collectedRoutes);
-    
+
       if (!module) {
         // If no module found for the route simple ask to render it as it will display
         // 404 page
@@ -43,7 +43,7 @@ if (global.unlisten) global.unlisten();
 global.unlisten = global.history.listen( location => {
   // Set the record for last changed url
   global.previousUrl = location.pathname;
-  
+
   if (window["ignoreHistoryChange"]) {
     window["ignoreHistoryChange"] = null;
     delete window["ignoreHistoryChange"];
