@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 import Button from 'material-ui/Button';
 import Grid from 'material-ui/Grid';
 
-import Panel from '../components/Panel';
-import PageContent from '../components/PageContent';
+import Panel from '../../components/Panel';
+import PageContent from '../../components/PageContent';
 
 const styles = theme => ({
     flexStack: {
@@ -72,12 +72,12 @@ class Registration extends React.Component<Props, State> {
                         <Grid container spacing={16} className={classes.container} justify="center">
                             <Grid item xs={12}>
                                 <img
-                                    src={require('../static/endura.png')}
+                                    src={require('../../static/endura.png')}
                                 />
                             </Grid>
                             <Grid item xs={12}>
                                 <img
-                                    src={require('../static/CRM.png')}
+                                    src={require('../../static/CRM.png')}
                                 />
                             </Grid>
                             <Grid item xs={12}>
