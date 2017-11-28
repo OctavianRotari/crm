@@ -180,6 +180,7 @@ export default [{
     // Uglify the output so that we have the most optimized code
     new UglifyJSPlugin({
       uglifyOptions: {
+        drop_debugger: false,
         compress: {
           warnings: false,
         },

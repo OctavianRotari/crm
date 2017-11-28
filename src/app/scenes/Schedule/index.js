@@ -21,10 +21,22 @@ type State = {
     value: string
 }
 
+function CalendarExeption(message, error) {
+    this.message = message;
+    this.error = error;
+    this.name = 'CalendarExeption';
+}
+
 class Schedule extends React.Component<Props, State> {
     state = {
         slotInfo: {},
         value: '0'
+    }
+
+    componentDidCatch(error, info) {
+        this.setState({hasError: true}, () => {
+            throw {info, error};
+        })
     }
 
     header = () => (
@@ -79,6 +91,9 @@ class Schedule extends React.Component<Props, State> {
     );
 
     render() {
+        if(this.state.hasError) {
+            return <h1>Something went wrong</h1>
+        }
         return (
             <Layout
                 ref={node => {this.layoutContainer = node}}

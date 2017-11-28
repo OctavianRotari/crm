@@ -90,7 +90,7 @@ class Agenda extends React.Component<Props, State> {
                 <Divider/>
                 <PanelContent headerPresent overflowYScroll>
                     { dateEvents ? dateEvents.events.map((event, i) => (
-                        <Paper>
+                        <Paper key={i}>
                             <List disablePadding key={i} style={{display: 'flex', width: '100%'}}>
                                 <ListItem
                                     disableGutters
@@ -108,8 +108,8 @@ class Agenda extends React.Component<Props, State> {
                                     classes={{root: classes.listItemRoot}}
                                 >
                                     <ListItemText primary={event.customer} style={{textAlign: 'left', fontSize: '1.125rem', flex: 'initial'}}/>
-                                    {event.notes.map( note => (
-                                        <Typography type="body1" align="left" color="primary">
+                                    {event.notes.map( (note, i) => (
+                                        <Typography type="body1" align="left" color="primary" key={i}>
                                             { note }
                                         </Typography>
                                     ))}
@@ -121,7 +121,7 @@ class Agenda extends React.Component<Props, State> {
                                 >
                                     <List disablePadding>
                                         {vitals.product.map((vital, i) => (
-                                            <ListItem disableGutters style={{paddingTop: 4, paddingBottom: 4}} key={i}>
+                                            <ListItem disableGutters style={{paddingTop: 4, paddingBottom: 4}} key={vital.key}>
                                                 <Typography align="right" type="body1" style={{flex: 1, marginRight: 4}}>
                                                     {vital.key}
                                                 </Typography>

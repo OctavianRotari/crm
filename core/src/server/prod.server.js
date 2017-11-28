@@ -126,6 +126,7 @@ try {
         next();
     });
 } catch (ex) {
+  conosle.log(ex);
     // Do not do anything here.
     // cause the assets are most probably handled by webpack
 }
@@ -346,7 +347,7 @@ app.get("*", pageCache(_.cloneDeep(Routes)), (req, res) => {
             return res.status(statusCode).send(`<!DOCTYPE html>${html}`);
 
         }).catch((err) => {
-            console.log(err);
+          console.log(err);
             routerComponent = getErrorComponent(err, store, storage, api);
             html = ReactDOMServer.renderToString((
                 <Html
@@ -362,7 +363,7 @@ app.get("*", pageCache(_.cloneDeep(Routes)), (req, res) => {
         });
         // Get data to load for all the routes
     } catch (err) {
-        console.log(err);
+      console.log(err);
         routerComponent = getErrorComponent(err, store, storage, api);
         html = ReactDOMServer.renderToString((
             <Html

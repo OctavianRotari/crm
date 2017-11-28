@@ -17,8 +17,7 @@ import TextField from 'material-ui/TextField';
 import events from '../../../dummyData/events';
 
 import Panel from '../../../components/Panel';
-import BigCalendar from '../../../components/Calendar';
-BigCalendar.momentLocalizer(moment);
+import CalendarComponent from '../../../components/Calendar';
 
 
 type Props = {
@@ -69,12 +68,9 @@ class Calendar extends React.Component<Props, State> {
         const { classes } = this.props;
         return (
             <Panel>
-                <BigCalendar
-                    style={{height: '100%'}}
+                <CalendarComponent
                     selectable={!open}
-                    isPopoverOpen={this.state.open}
                     events={events}
-                    onSelectEvent={event => alert(event.title)}
                     onLongPress={this.handleLongPress}
                     onClick={this.handleClick}
                 />
