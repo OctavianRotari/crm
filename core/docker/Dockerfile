@@ -1,10 +1,10 @@
-FROM node:alpine
+FROM node:latest
 
 WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN yarn
 
 VOLUME ["/app/src", "/app/core"]
 

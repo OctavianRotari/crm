@@ -19,7 +19,7 @@ import componentMap from "src/config/classMap";
 
 import { MuiThemeProvider } from 'material-ui/styles';
 
-import theme from '../components/theme.material';
+import theme from '../resources/theme.material';
 
 
 /**

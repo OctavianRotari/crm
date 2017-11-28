@@ -1,6 +1,13 @@
 // @flow
 import { createMuiTheme } from 'material-ui/styles';
+import WebFont from 'webfontloader';
 import { red } from 'material-ui/colors';
+
+WebFont.load({
+    google: {
+        families: ['Montserrat:100,200,300,400,500,600,700,800,900', 'sans-serif']
+    }
+});
 
 export default createMuiTheme({
     sizes: {

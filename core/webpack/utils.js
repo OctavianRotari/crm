@@ -18,13 +18,13 @@ export const getStylesRule = (
     extract = false,
   }
 ) => {
-  
+
   const localIdentName = isResource ?
     "[local]":
     (
       development ? "[name]__[local]" : "[name]_[local]_[hash:base64:5]"
     );
-  
+
   const loaderUse = [
     ...(!extract? [{
       loader: "style-loader",
@@ -42,7 +42,7 @@ export const getStylesRule = (
     },
     {
       loader: "postcss-loader",
-      options: { 
+      options: {
         sourceMap: development,
         path: path.join(rootDir, "core", "node_modules")
       }
@@ -56,10 +56,10 @@ export const getStylesRule = (
       }
     }
   ];
-  
+
   return {
     test: /\.(sass|scss|css)$/, // Check for sass or scss file names,
-    
+
     // If its for resource, include resource path
     ...(isResource ? {
       include: [
@@ -67,7 +67,7 @@ export const getStylesRule = (
         path.join(rootDir, "node_modules"),
       ]
     }: {}),
-  
+
     // If its not for resource, exclude resource path
     ...(!isResource ? {
       exclude: [
@@ -75,10 +75,10 @@ export const getStylesRule = (
         path.join(rootDir, "node_modules"),
       ]
     }: {}),
-    
+
     // If not extract is needed then implement use directly
     ...(!extract ? {use: loaderUse}: {}),
-  
+
     ...(extract ? {
       loader: ExtractTextPlugin.extract({
         fallback: "style-loader",
