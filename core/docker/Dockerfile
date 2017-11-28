@@ -1,10 +1,9 @@
-FROM node:latest
+FROM node:8
+RUN yarn global add npm@5
 
 WORKDIR /app
 
 COPY . .
-
-RUN yarn
 
 VOLUME ["/app/src", "/app/core"]
 
